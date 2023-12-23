@@ -11,7 +11,9 @@ export default function Home() {
             <li>
               <Link href={"/jest"}>Shoping</Link>
             </li>
-            <li>Categories</li>
+            <li>
+              <Link href={"login"}>Login</Link>
+            </li>
             <li>Contact Us</li>
             <li>About Us</li>
           </ul>

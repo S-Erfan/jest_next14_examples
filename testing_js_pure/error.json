@@ -1,0 +1,30 @@
+{
+  "message": "connect ECONNREFUSED ::1:80",
+  "name": "Error",
+  "stack": "Error: connect ECONNREFUSED ::1:80\n    at AxiosError.from (C:\\Users\\serfa\\OneDrive\\Desktop\\Erfan\\developer_tools\\next14_test_doc\\testing_js_pure\\node_modules\\axios\\dist\\node\\axios.cjs:837:14)\n    at RedirectableRequest.handleRequestError (C:\\Users\\serfa\\OneDrive\\Desktop\\Erfan\\developer_tools\\next14_test_doc\\testing_js_pure\\node_modules\\axios\\dist\\node\\axios.cjs:3083:25)\n    at RedirectableRequest.emit (node:events:513:28)\n    at eventHandlers.<computed> (C:\\Users\\serfa\\OneDrive\\Desktop\\Erfan\\developer_tools\\next14_test_doc\\testing_js_pure\\node_modules\\follow-redirects\\index.js:14:24)\n    at ClientRequest.emit (node:events:513:28)\n    at Socket.socketErrorListener (node:_http_client:495:9)\n    at Socket.emit (node:events:513:28)\n    at emitErrorNT (node:internal/streams/destroy:151:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": ["xhr", "http"],
+    "transformRequest": [null],
+    "transformResponse": [null],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "User-Agent": "axios/1.6.2",
+      "Accept-Encoding": "gzip, compress, deflate, br"
+    },
+    "method": "get",
+    "url": "https?page=1"
+  },
+  "code": "ECONNREFUSED",
+  "status": null
+}
