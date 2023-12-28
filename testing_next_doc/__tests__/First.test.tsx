@@ -4,7 +4,7 @@ import Home from "@/app/page";
 describe("Home testing", () => {
   it("test have logo text in Home", () => {
     render(<Home />); //! ARRANGE
-
+    
     // const myElement = screen.getByText("logo");
     const myElement = screen.getByText(/logo/i); //! ACT
 

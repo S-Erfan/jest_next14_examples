@@ -16,7 +16,11 @@ exports[`Home testing take snapshot 1`] = `
           </a>
         </li>
         <li>
-          Categories
+          <a
+            href="login"
+          >
+            Login
+          </a>
         </li>
         <li>
           Contact Us
